@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: #2DCC94;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2DCC94, #3F6658);
+    margin: 0px -10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.507);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+header > nav {
+    text-align: left;
+    margin-bottom: 0px;
+        
+}
+
+header > nav > a{
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+header > nav > a:hover{
+    background-color: #2DCC94;
+
+}
+
+section > h1, section h2{
+    font-family: 'Android',sans-serif;
+    color: #3F6658;
+}
+
+section h2{
+    background-image: linear-gradient(to right, #71c9aa8f, #fff 80%);
+}
+
+
+
+section{
+    background-color: white;
+    width: 60%;
+    margin:  3.5px auto 15px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+    padding: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+section > p > a{
+    text-decoration: none;
+    color: #056b44;
+    font-weight: bold;
+    font-size: 18px;
+}
+section > article > p > a{
+    text-decoration: none;
+    color: #056b44;
+    font-weight: bold;
+    font-size: 18px;
+}
+div{
+    text-align: center;
+}
+article#video{
+    margin: auto;
+    background-color: #056b44;
+    text-align: center;
+    padding: 30px;
+    margin: 10px -20px;
+}
+
+article#extra{
+    background-color: #2dcc947c;
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+
+p#mais{
+    background-color: #06b370;
+    color: white;
+    margin: -10px -5px 0px -5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer{
+    background-color: #3F6658;
+    text-align: center;
+    padding: 4px;
+    color: rgb(216, 216, 216);
+    margin: 0px -10px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+span.destaque{
+    color: white;
+    font-weight: bold;
+}
